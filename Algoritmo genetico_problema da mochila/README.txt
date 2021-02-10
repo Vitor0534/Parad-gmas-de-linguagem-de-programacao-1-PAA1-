@@ -1,14 +1,30 @@
 Autor: Vitor De Almeida Silva
 
-
-Este È uma algorÌtmo genÍtico para solucionar um problema de otimizaÁ„o de uma empresa de venda de carros. 
+# Portugu√™s:
+Este √© uma algor√≠tmo gen√™tico para solucionar um problema de otimiza√ß√£o de uma empresa de venda de carros. 
 
 //problema: uma pequena empresa de compra e venda de carros adiquiriu um terreno com o objetivo de 
-//construir um p·tio e um galp„o para colocar os carros. O objetivo da empresa È realizar um evento onde 
-//as pessoas poderiam ver os carros que est„o dentro do galp„o, ela quer colocar os carros de acordo com 
-//o preÁo e a ·rea ocupada, seguindo os seguintes critÈrios:
-//             * o preÁo dos carros devem ser somados para se ter um preÁo total
-//             * a soma das ·reas ocupadas pelos veiculos n„o deve exeder o limite do galp„o exedido pela empresa (60 m^2)
+//construir um p√°tio e um galp√£o para colocar os carros. O objetivo da empresa √© realizar um evento onde 
+//as pessoas poderiam ver os carros que est√£o dentro do galp√£o, ela quer colocar os carros de acordo com 
+//o pre√ßo e a √°rea ocupada, seguindo os seguintes crit√©rios:
+//             * o pre√ßo dos carros devem ser somados para se ter um pre√ßo total
+//             * a soma das √°reas ocupadas pelos veiculos n√£o deve exeder o limite do galp√£o exedido pela empresa (60 m^2)
 
 
-O algorÌtmo funciona de forma simplificada, realizando somente crossing over e uma mutaÁ„o aleatÛria que ocorre em tempo aleatÛrio. O programa somente utiliza uma populaÁ„o de 3 indivÌduos, sendo 2 pais e 1 que È o melhor individuo obtido a cada interaÁ„o. o melhor individuo È selecionado a cada interaÁ„o para realizar o crossing over com o segundo melhor indivÌduo na populaÁ„o com o objetivo de objeter o resultado Ûtimo. 
+O algor√≠tmo funciona de forma simplificada, realizando somente crossing over e uma muta√ß√£o aleat√≥ria que ocorre em tempo aleat√≥rio. O programa utiliza uma popula√ß√£o de 3 indiv√≠duos, sendo 2 pais e 1 que √© o melhor individuo obtido a cada intera√ß√£o. o melhor individuo √© selecionado a cada intera√ß√£o para realizar o crossing over com o segundo melhor indiv√≠duo na popula√ß√£o com o objetivo de melhorar os indiv√≠duos e obter o resultado √≥timo. 
+
+...
+
+# English:
+
+This is a genetic algorithm to solve an optimization problem of a car sales company.
+
+// problem: a small car buying and selling company acquired a piece of land in order to
+// build a patio and a shed to place the cars. The company's objective is to hold an event where
+// people could see the cars inside the shed, she wants to place the cars according to
+// the price and the area occupied, following the following criteria:
+// * the price of the cars must be added to have a total price
+// * the sum of the areas occupied by vehicles must not exceed the limit of the warehouse exceeded by the company (60 m ^ 2)
+
+
+The algorithm works in a simplified way, performing only crossing over and a random mutation that occurs at a random time. The program uses a population of 3 individuals, 2 parents and 1 who is the best individual obtained from each interaction. the best individual is selected at each interaction to perform the crossing over with the second-best individual in the population in order to improve the individuals and obtain the optimal result.
